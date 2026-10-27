@@ -23,8 +23,6 @@ This repository contains download guidance and the distribution license. GitHub'
 
 Use desktop Chrome 132 or newer with File System Access support. Extract the plugin ZIP, open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select the extracted folder containing `manifest.json`. Click the Dualscan™ Share toolbar icon. The ZIP contains the files required to run the extension.
 
-The 1.3.0 plugin ZIP is a manual-install release. The existing Chrome Store 1.2.0 submission remains unchanged while its review is pending.
-
 ## Desktop installation and trust
 
 Extract the Mac ZIP and open the app for your architecture. Run the Windows x64 portable EXE on Windows. Mac apps use ad-hoc signatures without Developer ID or notarization; Windows is unsigned. Windows execution, live AWS/Git-provider publication, physical USB and Samsung restoration acceptance remain untested.
