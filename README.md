@@ -6,16 +6,16 @@ Official downloads for macOS, Windows and Chrome.
 
 ![Dualscan Share Suite for macOS](assets/dualscan-share-mac.png)
 
-## Downloads · 1.3.1
+## Downloads · 1.3.2
 
 | Platform | Download |
 | --- | --- |
-| macOS · Apple silicon | [ARM64 app ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.1/Dualscan-Share-1.3.1-mac-arm64.zip) |
-| macOS · Intel | [x64 app ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.1/Dualscan-Share-1.3.1-mac-x64.zip) |
-| Windows · 64-bit | [Portable EXE](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.1/Dualscan-Share-1.3.1-win-x64.exe) |
-| Chrome | [Manifest V3 plugin ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.1/dualscan-share-1.3.1.zip) |
+| macOS · Apple silicon | [ARM64 app ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/Dualscan-Share-1.3.2-mac-arm64.zip) |
+| macOS · Intel | [x64 app ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/Dualscan-Share-1.3.2-mac-x64.zip) |
+| Windows · 64-bit | [Portable EXE](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/Dualscan-Share-1.3.2-win-x64.exe) |
+| Chrome | [Manifest V3 plugin ZIP](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/dualscan-share-1.3.2.zip) |
 
-[SHA-256 checksums](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.1/SHA256SUMS.txt)
+[SHA-256 checksums](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/SHA256SUMS.txt)
 
 This repository contains download guidance and the distribution license. GitHub's automatically generated ZIP/TAR archives contain that documentation.
 
@@ -42,3 +42,7 @@ Card 01 offers **Make Original Dualscan OS USB-C** or **Upload .dualscan USB-C i
 New AWS publications use a random Dualscan OS folder ID matching the project file ID. All files must pass anonymous read-back; configure the exact-folder public policy before publishing. Protect personal SSS additions using Smart Switch encryption first.
 
 New project files use binary Typelocker app protection. The common app key is recoverable from the app; add a user passphrase for confidential metadata. Public cloud payloads remain public independently of manifest protection.
+
+## GitHub connectivity · 1.3.2
+
+The desktop apps now send the User-Agent required by GitHub, fixing a 403 that occurred even with a valid access token. All builds provide clearer GitHub error details, quota/reset timing and safe retry handling. Reopen the updated app and retry Pin & analyze. A session token can raise API limits; it is not needed to correct the missing-header bug.
