@@ -4,6 +4,8 @@ Official downloads for macOS, Windows and Chrome.
 
 [Product page and app preview](https://dualscan.cloud/share/) · [Privacy](https://dualscan.cloud/share/privacy.html)
 
+**[Read the detailed Instruction Manual](INSTRUCTION-MANUAL.md)** — installation, .dualscan creation, USB transfers, Git/AWS backups, restore and troubleshooting. [Create a .dualscan file](INSTRUCTION-MANUAL.md#create-dualscan) · [Website edition](https://dualscan.cloud/share/manual.html)
+
 ![Dualscan Share Suite for macOS](assets/dualscan-share-mac.png)
 
 ## Downloads · 1.3.2
