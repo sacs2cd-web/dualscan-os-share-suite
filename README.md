@@ -19,9 +19,11 @@ Official downloads for macOS, Windows and Chrome.
 
 [SHA-256 checksums](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/SHA256SUMS.txt)
 
-## Dualscan™ Share Pro for Android · 1.0.4
+## Dualscan™ Share Pro for Android · 1.0.10
 
-[Download the Android APK](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/share-pro-v1.0.4/Dualscan-Share-Pro-1.0.4-android.apk) · [SHA-256 checksums](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/share-pro-v1.0.4/SHA256SUMS.txt) · [Release and installation notes](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/tag/share-pro-v1.0.4) · [Pro product page](https://dualscan.cloud/share/pro/)
+[Download the Android APK](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/share-pro-v1.0.10/Dualscan-Share-Pro-1.0.10-android.apk) · [SHA-256 checksums](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/share-pro-v1.0.10/SHA256SUMS.txt) · [Release and installation notes](https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/tag/share-pro-v1.0.10) · [Pro product page](https://dualscan.cloud/share/pro/)
+
+APK size: 46,105,471 bytes · SHA-256: `ca90a08f06d98688fcdf222f49527f00c43bcb788e697a6530fdb4813a85094b`
 
 Android 11 or newer. The main-panel **Scan a Dualscan™ Code** button opens the bundled QR/Data Matrix scanner, with continuous autofocus where supported and tap focus/metering. Camera permission is requested only when scanning; endpoint paste and local project files remain available. Supported USB storage and a system document/folder picker are required for authoring and restoration; TV support depends on the device.
 
